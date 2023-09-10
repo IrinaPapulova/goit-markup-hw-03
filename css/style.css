@@ -35,15 +35,15 @@ ul li {
 }
 
 .container {
+  display: flex;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px;
+  margin: 0 auto;
 }
 
 /*header*/
-header {
+.header {
   border-bottom: 1px solid #d9d9d9;
 }
 .header-container {
@@ -52,12 +52,11 @@ header {
   align-items: center;
   gap: 24px;
 }
-.nav-container {
-}
 
 .nav-item {
   display: flex;
   gap: 24px;
+  align-items: center;
   flex-grow: 1;
 }
 
@@ -73,9 +72,10 @@ header {
   color: #4d5ae5;
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 
-.header-item {
+.nav-menu {
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -86,7 +86,7 @@ span {
   color: #2e2f42;
 }
 
-.nav-list {
+.menu-list {
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
@@ -105,8 +105,9 @@ span {
   display: flex;
 }
 
-.header-item-link {
+.address-menu {
   display: flex;
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -128,7 +129,7 @@ address a {
 
 /*Hero image section*/
 .hero {
-  padding-bottom: 120px;
+ padding: 188px 0;
 }
 
 .container-hero {
@@ -136,7 +137,7 @@ address a {
   background-color: #2e2f42;
   display: flex;
   flex-direction: column;
-  padding: 188px 316px;
+  
 }
 
 .hero-title {
@@ -153,9 +154,7 @@ address a {
   flex-shrink: 0;
 }
 
-.container-button-order {
-  display: flex;
-}
+
 
 .button-order {
   font-family: Roboto, sans-serif;
@@ -167,9 +166,12 @@ address a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-order:hover,
@@ -180,14 +182,13 @@ address a {
 /*Our value*/
 /*hidden title*/
 
+.section-our-values {
+  padding: 120px 0;
+}
+
 .container-our-values {
   display: flex;
-  max-width: 1158px;
-
-  margin-left: 141px;
-  margin-right: 141px;
-  padding: 0 15px 120px;
-}
+  }
 
 .title-our-values {
   position: absolute;
@@ -211,7 +212,7 @@ address a {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: calc((100% - 102px) / 4);
+  width: calc((100% - 72px) / 4)
   gap: 24px;
 }
 
@@ -367,6 +368,7 @@ address a {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 
 .web-logo {
@@ -376,11 +378,13 @@ address a {
   display: flex;
   flex-direction: column;
 }
-.logofoter {
-  padding-top: 101.5px;
-  margin-bottom: 17.5px;
-}
+
 .text-footer {
   max-width: 264px;
-  padding-bottom: 100px;
+  
+}
+
+.logows-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
