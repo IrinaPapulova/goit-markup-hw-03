@@ -367,19 +367,15 @@ address a {
   padding: 100px 0;
 }
 
+.logows-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .web-logo {
   color: #f4f4fd;
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
 }
 
 .text-footer {
   max-width: 264px;
-}
-
-.logows-footer {
-  display: inline-block;
-  margin-bottom: 16px;
 }
