@@ -35,10 +35,8 @@ ul li {
 }
 
 .container {
-  display: flex;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -49,19 +47,17 @@ ul li {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
 }
 
-.nav-item {
+.nav-header {
   display: flex;
-  gap: 24px;
   align-items: center;
+  gap: 24px;
+
   flex-grow: 1;
 }
 
-.logows {
+.logo-header {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -71,8 +67,6 @@ ul li {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
   margin-right: 76px;
 }
 
@@ -86,13 +80,16 @@ ul li {
 span {
   color: #2e2f42;
 }
-
 .menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
   font-style: normal;
-  display: inline-block;
   padding: 24px 0;
 }
 
@@ -102,22 +99,16 @@ span {
   text-decoration: underline;
 }
 
-.container-address {
-  display: flex;
-}
-
 .address-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
-address {
+.address {
   font-style: normal;
 }
 
-address a {
+.address a {
   color: #434455;
   text-decoration: none;
   font-weight: 400;
@@ -369,7 +360,7 @@ address a {
   padding: 100px 0;
 }
 
-.logows-footer {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
