@@ -34,12 +34,6 @@ ul li {
   list-style-type: none;
 }
 
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 /*header*/
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -47,14 +41,15 @@ ul li {
 
 .header-container {
   display: flex;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
   gap: 24px;
-
-  flex-grow: 1;
 }
 
 .logo-header {
@@ -72,8 +67,6 @@ ul li {
 
 .nav-menu {
   display: flex;
-  flex-grow: 1;
-  justify-content: center;
   gap: 40px;
 }
 
