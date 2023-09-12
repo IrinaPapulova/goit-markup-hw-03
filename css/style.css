@@ -47,6 +47,7 @@ ul li {
 
 .header div {
   display: flex;
+  align-items: center;
 }
 
 .nav-header {
@@ -102,9 +103,14 @@ span {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
-.address a {
+.address-list {
+  align-items: center;
+}
+
+.address-link {
   color: #434455;
   text-decoration: none;
   font-weight: 400;
@@ -118,6 +124,7 @@ span {
 /*Hero image section*/
 .hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -127,6 +134,9 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .button-order {
@@ -144,6 +154,8 @@ span {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button-order:hover,
@@ -214,6 +226,7 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .our-team-item {
@@ -259,6 +272,7 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .portfolio-list {
@@ -270,7 +284,6 @@ span {
 
 .list-box-portfolio {
   background-color: #fff;
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 
@@ -301,6 +314,7 @@ span {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  color: #4d5ae5;
 }
 
 .web-logo {
@@ -310,4 +324,5 @@ span {
 
 .text-footer {
   max-width: 264px;
+  margin-right: auto;
 }
